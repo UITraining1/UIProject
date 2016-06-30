@@ -1,0 +1,387 @@
+<!doctype html>
+<html>
+<head>
+	<title>Unify</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrapValidator.css"/>
+	<link rel="stylesheet" href="assets/css/base.css">
+	<link rel="stylesheet" href="assets/css/matchmaker.css">
+	<script src="assets/js/jquery.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrapValidator.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/home.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+	  <div class="row">
+	    	<div class="nav">
+	    		<div class="mm-logo">logo</div>
+	    		<div class="ads">
+	    			<img class="img-responsive ads" src="assets/images/ad.jpg" width="100%" height="400px" />
+	    		</div>
+	    		<nav>
+					  <a href="#success">SUCCESS STORIES</a> 
+					  <a href="#candidates">CANDIDATES</a> 
+					  <a href="#faq">FAQs</a> 
+					  <a class="login" href="#login">LOGIN</a>
+				</nav>
+				<span class="powered">&nbsp;</span>
+	    	</div>
+	  </div>
+	</div>
+	<div class="container">  
+	  <div class="row">
+	  	<section id="login">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><a href="#hero">×</a></span><span class="sr-only">Close</span></button>
+				<h2>Login</h2>
+				<form class="form-horizontal registerForm">
+				    <div class="form-group">
+				        <label class="col-sm-5 control-label">Username</label>
+				        <div class="col-xs-12 col-sm-3">
+				             <input type="text" class="form-control" name="username"
+		                                data-bv-notempty="true"
+		                                data-bv-notempty-message="The username is required and cannot be empty"
+
+		                                data-bv-stringlength="true"
+		                                data-bv-stringlength-min="6"
+		                                data-bv-stringlength-max="30"
+		                                data-bv-stringlength-message="The username must be more than 6 and less than 30 characters long"
+
+		                                data-bv-regexp="true"
+		                                data-bv-regexp-regexp="^[a-zA-Z0-9]+$"
+		                                data-bv-regexp-message="The username can only consist of alphabetical and number"
+
+		                                data-bv-different="true"
+		                                data-bv-different-field="password"
+		                                data-bv-different-message="The username and password cannot be the same as each other" />
+				        </div>
+				    </div>
+
+				    <div class="form-group">
+				        <label class="col-sm-5 control-label">Password</label>
+				        <div class="col-xs-12 col-sm-3	">
+				             <input type="password" class="form-control" name="password"
+		                                data-bv-notempty="true"
+		                                data-bv-notempty-message="The password is required and cannot be empty"
+
+		                                data-bv-stringlength="true"
+		                                data-bv-stringlength-min="8"
+		                                data-bv-stringlength-message="The password must have at least 8 characters"
+
+		                                data-bv-different="true"
+		                                data-bv-different-field="username"
+		                                data-bv-different-message="The password cannot be the same as username" />
+                        </div>
+			        </div>
+			         <div class="form-group">
+				        <div class=" col-sm-6 col-xs-12 col-sm-4 col-md-offset-5">
+				            <button type="submit" class="btn btn-default">submit</button>
+                        </div>
+			        </div>
+				  
+				</form>
+			</section>
+	  </div>
+	  <div class="row">
+	  	<div class="hero-success-main">
+	  		<div class="main-story col-md-3">
+	  			<h3>Table for Two</h3>
+	  			<address>
+	  				San Francisco, California <br />
+	  				United States <br />
+	  				<b>Matches: 1021 </b><br />
+	  				<span class="candidates">Candidates: 4458</span>
+	  			</address>
+	  			Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</div>
+	  		<div class="main-story-img col-md-9">
+	  			<img class="img-responsive " src="assets/images/hero-success.jpg" width="100%" height="auto" />
+	  		</div>
+	  </div>
+	  <div id="success" class="row">
+	  	<div class="content">
+	  		<h2>SUCCESS STORIES</h2>
+	  		<div class="hero-success">
+	  			<div class="hero-story-img col-md-3">
+	  				<div class="img col-md-offset-2">
+					 <a target="_blank" href="klematis_big.htm"><img  style="background-position: -29px -179px; background-image: url(assets/images/matchmakerssprite.svg)" width="279" height="186"></a>
+					 <div class="desc">
+					 	<address>
+					 		<b>James F.</b><br />
+					 		San Francisco, CA <br />
+					 		United States
+					 	</address>
+					 </div>
+					</div>
+	  			</div>
+	  			<div class="hero-story col-md-9"><h3>James &amp; Christine's Story</h3> ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. <br/><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.<br /><br /><b>Table for Two and Unify congratulates James and Christine. We wish you both a wonderful time</b></div>
+	  		</div>
+	  		<div class="hero-success">
+	  			<div class="hero-story-img col-md-3">
+	  				<div class="img col-md-offset-2">
+					 <a target="_blank" href="klematis_big.htm"><img  style="background-position: -29px -179px; background-image: url(assets/images/matchmakerssprite.svg)" width="279" height="186"></a>
+					 <div class="desc">
+					 	<address>
+					 		<b>James F.</b><br />
+					 		San Francisco, CA <br />
+					 		United States
+					 	</address>
+					 </div>
+					</div>
+	  			</div>
+	  			<div class="hero-story col-md-9"><h3>James &amp; Christine's Story</h3> ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. <br/><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.<br /><br /><b>Table for Two and Unify congratulates James and Christine. We wish you both a wonderful time</b></div>
+	  		</div>
+	  		<div class="hero-success">
+	  			<div class="hero-story-img col-md-3">
+	  				<div class="img col-md-offset-2">
+						 <a target="_blank" href="klematis_big.htm"><img  style="background-position: -29px -179px; background-image: url(assets/images/matchmakerssprite.svg)" width="279" height="186"></a>
+						 <div class="desc">
+					 	<address>
+					 		<b>James F.</b><br />
+					 		San Francisco, CA <br />
+					 		United States
+					 	</address>
+					 </div>
+					</div>
+	  			</div>
+	  			<div class="hero-story col-md-9"><h3>James &amp; Christine's Story</h3> ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. <br/><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.<br /><b>Table for Two and Unify congratulates James and Christine. We wish you both a wonderful time</b></div>
+	  		</div>
+	  	</div>
+	  </div>
+	  <div id="candidates" class="row">
+		  	<h2>Candidates</h2>
+			<div class="hero-story-img col-md-2">
+				<div class="img">
+					 <a target="_blank" href="klematis_big.htm"><img  style="background-position: -336px -180px; background-image: url(assets/images/matchmakerssprite.svg)" width="180" height="120"></a>
+					 <div class="desc">
+					 	<address>
+					 		<b>James F.</b><br />
+					 		San Francisco, CA <br />
+					 		United States
+					 	</address>
+					 </div>
+				</div>
+		  	</div>
+		  	<div class="hero-story-img col-md-2">
+				<div class="img">
+					 <a target="_blank" href="klematis_big.htm"><img  style="background-position: -336px -180px; background-image: url(assets/images/matchmakerssprite.svg)" width="180" height="120"></a>
+					 <div class="desc">
+					 	<address>
+					 		<b>James F.</b><br />
+					 		San Francisco, CA <br />
+					 		United States
+					 	</address>
+					 </div>
+				</div>
+		  	</div>
+		  	<div class="hero-story-img col-md-2">
+				<div class="img">
+					 <a target="_blank" href="klematis_big.htm"><img  style="background-position: -336px -180px; background-image: url(assets/images/matchmakerssprite.svg)" width="180" height="120"></a>
+					 <div class="desc">
+					 	<address>
+					 		<b>James F.</b><br />
+					 		San Francisco, CA <br />
+					 		United States
+					 	</address>
+					 </div>
+				</div>
+		  	</div>
+		  	<div class="hero-story-img col-md-2">
+				<div class="img">
+					 <a target="_blank" href="klematis_big.htm"><img  style="background-position: -336px -180px; background-image: url(assets/images/matchmakerssprite.svg)" width="180" height="120"></a>
+					 <div class="desc">
+					 	<address>
+					 		<b>James F.</b><br />
+					 		San Francisco, CA <br />
+					 		United States
+					 	</address>
+					 </div>
+				</div>
+		  	</div>
+		  	<div class="hero-story-img col-md-2">
+				<div class="img">
+					 <a target="_blank" href="klematis_big.htm"><img  style="background-position: -336px -180px; background-image: url(assets/images/matchmakerssprite.svg)" width="180" height="120"></a>
+					 <div class="desc">
+					 	<address>
+					 		<b>James F.</b><br />
+					 		San Francisco, CA <br />
+					 		United States
+					 	</address>
+					 </div>
+				</div>
+		  	</div>
+		  	<div class="hero-story-img col-md-2">
+				<div class="img">
+					 <a target="_blank" href="klematis_big.htm"><img  style="background-position: -336px -180px; background-image: url(assets/images/matchmakerssprite.svg)" width="180" height="120"></a>
+					 <div class="desc">
+					 	<address>
+					 		<b>James F.</b><br />
+					 		San Francisco, CA <br />
+					 		United States
+					 	</address>
+					 </div>
+				</div>
+		  	</div>
+		  	<div class="hero-story-img col-md-2">
+				<div class="img">
+					 <a target="_blank" href="klematis_big.htm"><img  style="background-position: -336px -180px; background-image: url(assets/images/matchmakerssprite.svg)" width="180" height="120"></a>
+					 <div class="desc">
+					 	<address>
+					 		<b>James F.</b><br />
+					 		San Francisco, CA <br />
+					 		United States
+					 	</address>
+					 </div>
+				</div>
+		  	</div>
+		  	<div class="hero-story-img col-md-2">
+				<div class="img">
+					 <a target="_blank" href="klematis_big.htm"><img  style="background-position: -336px -180px; background-image: url(assets/images/matchmakerssprite.svg)" width="180" height="120"></a>
+					 <div class="desc">
+					 	<address>
+					 		<b>James F.</b><br />
+					 		San Francisco, CA <br />
+					 		United States
+					 	</address>
+					 </div>
+				</div>
+		  	</div>
+		  	<div class="hero-story-img col-md-2">
+				<div class="img">
+					 <a target="_blank" href="klematis_big.htm"><img  style="background-position: -336px -180px; background-image: url(assets/images/matchmakerssprite.svg)" width="180" height="120"></a>
+					 <div class="desc">
+					 	<address>
+					 		<b>James F.</b><br />
+					 		San Francisco, CA <br />
+					 		United States
+					 	</address>
+					 </div>
+				</div>
+		  	</div>
+		  	<div class="hero-story-img col-md-2">
+				<div class="img">
+					 <a target="_blank" href="klematis_big.htm"><img  style="background-position: -336px -180px; background-image: url(assets/images/matchmakerssprite.svg)" width="180" height="120"></a>
+					 <div class="desc">
+					 	<address>
+					 		<b>James F.</b><br />
+					 		San Francisco, CA <br />
+					 		United States
+					 	</address>
+					 </div>
+				</div>
+		  	</div>
+		  	<div class="hero-story-img col-md-2">
+				<div class="img">
+					 <a target="_blank" href="klematis_big.htm"><img  style="background-position: -336px -180px; background-image: url(assets/images/matchmakerssprite.svg)" width="180" height="120"></a>
+					 <div class="desc">
+					 	<address>
+					 		<b>James F.</b><br />
+					 		San Francisco, CA <br />
+					 		United States
+					 	</address>
+					 </div>
+				</div>
+		  	</div>
+		  	<div class="hero-story-img col-md-2">
+				<div class="img">
+					 <a target="_blank" href="klematis_big.htm"><img  style="background-position: -336px -180px; background-image: url(assets/images/matchmakerssprite.svg)" width="180" height="120"></a>
+					 <div class="desc">
+					 	<address>
+					 		<b>James F.</b><br />
+					 		San Francisco, CA <br />
+					 		United States
+					 	</address>
+					 </div>
+				</div>
+		  	</div>
+		</div>
+		<div id="faq" class="row">
+			<h2>Frequently asked questions</h2>
+			<div class="faqs">
+					<p class="question"> what is the service?</p>
+					<p class="answer"> Unify is a platform that allows  matchmakers to select candidates for their clients based on social media</p>
+				</div>
+				<div class="faqs">
+					<p class="question"> can clients use it?</p>
+					<p class="answer"> Yes. Clients may access a user account that presents candidates based on their own profile.</p>
+				</div>
+				<div class="faqs">
+					<p class="question"> How many candidates are in the database?</p>
+					<p class="answer"> Thousands, with more being added each day.</p>
+				</div>
+				<div class="faqs">
+					<p class="question"> Are the candidates national or worldwide?</p>
+					<p class="answer"> Both. Our databases presents local candidates, but contains choices from all over the world.</p>
+				</div>
+				<div class="faqs">
+					<p class="question"> Can I see social media information for a profile when I view it?</p>
+					<p class="answer"> Yes. Our platform is fully integrated with Facebook and Linkedin allowing you to make matches based on social and professional backgrounds.</p>
+				</div>
+				<div class="faqs">
+					<p class="question"> What other features does the platform have?</p>
+					<p class="answer"> Unify has comprehensive search ability for matchmakers to find the best choices.</p>
+				</div>
+				<div class="faqs">
+					<p class="question"> How does the search feature work?</p>
+					<p class="answer"> Matchmakers or Clients choose criteria such as education or religion and the feature presents them with multiple candidates.</p>
+				</div>
+				<div class="faqs">
+					<p class="question"> How much does it cost?</p>
+					<p class="answer"> Matchmakers pay to use the service, but their clients can use it free. Please contact our sales office for details.</p>
+				</div>
+		</div>
+		<div class="row">
+			<h2>Contact Us</h2>
+			<div class="col-sm-4 contact-us">
+					<span class="contactus-1 col-md-offset-4">&nbsp;</span>
+					<h3>OFFICE ADDRESS</h3>
+					<address>
+						3420 Mission College Blvd. <br />
+						Santa Clara, CA USA 95054 <br />
+						<strong>Phone: </strong>408.431.2623<br />
+						<strong>Fax: </strong>408.431.2625 <br />
+					</address> 
+				</div>
+				<div class="contact-us col-sm-4">
+					<span class="contactus-2 col-md-offset-4">&nbsp;</span>
+					<h3>E-MAIL ADDRESS</h3>
+					<address>
+						Send us an e-mail using your <br />
+						favorite e-mail at: <br />
+						<a href="mailto:webmaster@example.com">asia.sales@unify.ly</a>
+					</address> 
+				</div>
+				<div class="contact-us col-sm-4">
+					<span class="contactus-3 col-md-offset-4">&nbsp;</span>
+					<h3>PHONE NUMBERS</h3>
+					<address>
+						Susan Annette McAllister <br />
+						Marketing Director <br />
+						<strong>Phone: </strong>408.450.5513 <br />
+						<strong>Fax: </strong>408.450.5514 <br />
+					</address> 
+				</div>
+		</div>
+		<div class="row">
+			<div class="content-soc col-md-offset-4">
+				<div class="social col-md-1">
+					<span class="fa fa-facebook fa-2x social-icon">&nbsp;</span>
+				</div>
+				<div class="social col-md-1">
+					<span class="fa fa-linkedin fa-2x social-icon">&nbsp;</span>
+				</div>
+				<div class="social col-md-1">
+					<span class="fa fa-twitter fa-2x social-icon">&nbsp;</span>
+				</div>
+				<div class="social social-googlepl col-md-1">
+					<span class="fa fa-google-plus fa-2x social-icon">&nbsp;</span>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>

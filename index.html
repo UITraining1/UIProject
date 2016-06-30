@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+	<title>Unify</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrapValidator.css"/>
+	<link rel="stylesheet" href="assets/css/base.css">
+	<link rel="stylesheet" href="assets/css/home.css">
+	<script src="assets/js/jquery.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrapValidator.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/home.js"></script>
+</head>
+<body>
+	<section id="mainwrap">
+		<section class="container-fluid">
+<!-- Hero Section -->
+			<section id="hero">
+				<div class="hero-img">
+					<img class="img-responsive" src="assets/images/hero.jpg" width="100%" height="auto" />
+					<span class="icon"><img  style="display: block; background-position: -549px -29px; background-image: url(assets/images/matchmakerssprite.svg)" width="96" height="38"></span>
+					<nav>
+					  <a href="#features">Features</a> 
+					  <a href="#faq">FAQ</a> 
+					  <a href="#contactus">Contact</a> 
+					</nav>
+					<h1 class="hero col-md-6 col-md-offset-3">Your matchmaking business, simplified.</h1>
+					<div class="hero-action col-md-3 col-md-offset-4">
+						<a class="login" href="#login">Login</a>
+						<!-- <a class="register" href="#register">Register</a> -->
+					</div>
+				</div>
+			</section>
+<!-- Hero Section -->
+
+<!-- login -->
+			<section id="login">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><a href="#hero">×</a></span><span class="sr-only">Close</span></button>
+				<h2>Login</h2>
+				<form class="form-horizontal registerForm">
+				    <div class="form-group">
+				        <label class="col-sm-5 control-label">Username</label>
+				        <div class="col-xs-12 col-sm-3">
+				             <input type="text" class="form-control" name="username"
+		                                data-bv-notempty="true"
+		                                data-bv-notempty-message="The username is required and cannot be empty"
+
+		                                data-bv-stringlength="true"
+		                                data-bv-stringlength-min="6"
+		                                data-bv-stringlength-max="30"
+		                                data-bv-stringlength-message="The username must be more than 6 and less than 30 characters long"
+
+		                                data-bv-regexp="true"
+		                                data-bv-regexp-regexp="^[a-zA-Z0-9]+$"
+		                                data-bv-regexp-message="The username can only consist of alphabetical and number"
+
+		                                data-bv-different="true"
+		                                data-bv-different-field="password"
+		                                data-bv-different-message="The username and password cannot be the same as each other" />
+				        </div>
+				    </div>
+
+				    <div class="form-group">
+				        <label class="col-sm-5 control-label">Password</label>
+				        <div class="col-xs-12 col-sm-3	">
+				             <input type="password" class="form-control" name="password"
+		                                data-bv-notempty="true"
+		                                data-bv-notempty-message="The password is required and cannot be empty"
+
+		                                data-bv-stringlength="true"
+		                                data-bv-stringlength-min="8"
+		                                data-bv-stringlength-message="The password must have at least 8 characters"
+
+		                                data-bv-different="true"
+		                                data-bv-different-field="username"
+		                                data-bv-different-message="The password cannot be the same as username" />
+                        </div>
+			        </div>
+			         <div class="form-group">
+				        <div class=" col-sm-6 col-xs-12 col-sm-4 col-md-offset-5">
+				            <button type="submit" class="btn btn-default">submit</button>
+                        </div>
+			        </div>
+				  
+				</form>
+			</section>
+<!-- login -->
+
+<!-- features -->
+			<section id="features">
+				<span class="close top"><a href="#hero">top</a></span>
+					<h2 class="features col-md-6 col-md-offset-3">Your business process, simplified. Make matches easily and efficiently.</h2>
+				
+					<div class="col-sm-4 features-content">
+						<span class="feature-1 col-md-offset-4">&nbsp;</span>
+						<h3>Database Access</h3>
+						<div class="features-copy">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
+						</div>
+					</div>
+					<div class="col-sm-4 features-content">
+						<span class="feature-2 col-md-offset-4">&nbsp;</span>
+						<h3>Profile Management</h3>
+						<div class="features-copy">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
+						</div>
+					</div>
+					<div class="col-sm-4 features-content">
+						<span class="feature-3 col-md-offset-4">&nbsp;</span>
+						<h3>Social presence</h3>
+						<div class="features-copy">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
+						</div>
+					</div>
+
+
+			</section>
+<!-- features -->
+
+<!--FAQ-->
+			<section id="faq">
+				<span class="close top"><a href="#hero">top</a></span>
+				<h2>Frequently Asked Questions (FAQs)</h2>
+				<div class="faqs">
+					<p class="question"> what is the service?</p>
+					<p class="answer"> Unify is a platform that allows  matchmakers to select candidates for their clients based on social media</p>
+				</div>
+				<div class="faqs">
+					<p class="question"> can clients use it?</p>
+					<p class="answer"> Yes. Clients may access a user account that presents candidates based on their own profile.</p>
+				</div>
+				<div class="faqs">
+					<p class="question"> How many candidates are in the database?</p>
+					<p class="answer"> Thousands, with more being added each day.</p>
+				</div>
+				<div class="faqs">
+					<p class="question"> Are the candidates national or worldwide?</p>
+					<p class="answer"> Both. Our databases presents local candidates, but contains choices from all over the world.</p>
+				</div>
+				<div class="faqs">
+					<p class="question"> Can I see social media information for a profile when I view it?</p>
+					<p class="answer"> Yes. Our platform is fully integrated with Facebook and Linkedin allowing you to make matches based on social and professional backgrounds.</p>
+				</div>
+				<div class="faqs">
+					<p class="question"> What other features does the platform have?</p>
+					<p class="answer"> Unify has comprehensive search ability for matchmakers to find the best choices.</p>
+				</div>
+				<div class="faqs">
+					<p class="question"> How does the search feature work?</p>
+					<p class="answer"> Matchmakers or Clients choose criteria such as education or religion and the feature presents them with multiple candidates.</p>
+				</div>
+				<div class="faqs">
+					<p class="question"> How much does it cost?</p>
+					<p class="answer"> Matchmakers pay to use the service, but their clients can use it free. Please contact our sales office for details.</p>
+				</div>
+			</section>
+
+	<!--contact us -->
+			<section id="contactus">
+				<span class="close top"><a href="#hero">top</a></span>
+				<h2>Contact Us</h2>	
+				<div class="col-sm-4">
+					<h3>Silicon Valley Office</h3>
+					<address>
+						3420 Mission College Blvd. <br />
+						Santa Clara, CA USA 95054 <br />
+						<strong>Phone: </strong>408.431.2623<br /
+						<strong>Fax: </strong>408.431.2625 <br />
+					</address> 
+				</div>
+				<div class="col-sm-4">
+					<h3>Asia Office</h3>
+					<address>
+						DLF Technical Park, Block-3 <br />
+						1st floor, Suites No# 129-132 <br />
+						APHB Center, Gacibowli <br />
+						Hyderbad, India 500 019 <br />
+						<strong>Phone: </strong>040.9625.8333 <br />
+						<strong>Fax: </strong>040.9625.8334 <br />
+						asia.sales@unify.ly
+					</address> 
+				</div>
+				<div class="col-sm-4">
+					<h3>Media Queries</h3>
+					<address>
+						Susan Annette McAllister <br />
+						Marketing Director <br />
+						<strong>Phone: </strong>408.450.5513 <br />
+						<strong>Fax: </strong>408.450.5514 <br />
+					</address> 
+				</div>
+			</section>
+
+			<section id="social-buttons">
+				<div class="row">
+					<div class="content-soc col-md-offset-4">
+						<div class="social col-md-1">
+							<span class="fa fa-facebook fa-2x social-icon">&nbsp;</span>
+						</div>
+						<div class="social col-md-1">
+							<span class="fa fa-linkedin fa-2x social-icon">&nbsp;</span>
+						</div>
+						<div class="social col-md-1">
+							<span class="fa fa-twitter fa-2x social-icon">&nbsp;</span>
+						</div>
+						<div class="social social-googlepl col-md-1">
+							<span class="fa fa-google-plus fa-2x social-icon">&nbsp;</span>
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>	
+	</section>
+</body>
+</html>
